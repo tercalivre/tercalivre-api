@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: tercalivre
+      MYSQL_DATABASE: tercalivre
+      MYSQL_USER: tercalivre
+      MYSQL_PASSWORD: tercalivre
+    ports:
+    - "3306:3306"

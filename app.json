@@ -1,0 +1,7 @@
+{
+    "name": "Terca Livre - API",
+    "description": "API do terça livre para mobiles",
+    "addons": [
+        "heroku-postgresql"
+    ]
+}
