@@ -21,7 +21,7 @@ public class AutorMapper {
 				.id(autor.getId())
 				.biografia(autor.getBiografia())
 				.nome(autor.getNome())
-				.dataCricacao(autor.getDataCricacao())
+				.dataCriacao(autor.getDataCriacao())
 				.dataAtualizacao(autor.getDataAtualizacao()).build();
 	}
 
@@ -39,7 +39,7 @@ public class AutorMapper {
 				.id(autorDto.getId())
 				.biografia(autorDto.getBiografia())
 				.nome(autorDto.getNome())
-				.dataCricacao(autorDto.getDataCricacao())
+				.dataCriacao(autorDto.getDataCriacao())
 				.dataAtualizacao(autorDto.getDataAtualizacao()).build();
 	}
 

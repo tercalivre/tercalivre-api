@@ -1,6 +1,7 @@
 package com.leaolabs.tercalivre.v1.dtos;
 
 import java.io.Serializable;
+import java.time.ZonedDateTime;
 import java.util.Date;
 
 import javax.validation.constraints.NotBlank;
@@ -35,8 +36,8 @@ public class AutorDto implements Serializable {
 	private String biografia;
 
 	@NotBlank
-	private Date dataCricacao;
+	private ZonedDateTime dataCriacao;
 
 	@NotBlank
-	private Date dataAtualizacao;
+	private ZonedDateTime dataAtualizacao;
 }
