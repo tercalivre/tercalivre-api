@@ -7,6 +7,7 @@ Terca Livre - Backend
 - Docker
 - Docker Compose
 - Java 11+
+- Maven
 
 ## Como usar
 - git clone git@github.com:tercalivre/tercalivre-api.git
