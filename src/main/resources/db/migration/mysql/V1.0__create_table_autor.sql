@@ -4,6 +4,6 @@ CREATE TABLE autor (
 	data_nascimento datetime NULL,
 	biografia MEDIUMTEXT null,
 	data_criacao datetime NOT NULL,
-    data_atualizacao datetime NOT NULL,
+	data_atualizacao datetime NOT NULL,
     PRIMARY KEY (id)
 );
